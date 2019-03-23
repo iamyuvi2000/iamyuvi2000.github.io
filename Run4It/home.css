@@ -56,7 +56,7 @@ li{
 
 #one
 {
-  height: 100vh;
+  
   width: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -139,16 +139,6 @@ li{
   	/*box-shadow: 0 15px*/
 }
 /*---TWO ---*/
-
-
-#two
-{
-  text-align: center;
-  height:100vh;
-  scroll-snap-align:start;
-}
-
-
 
 
 
