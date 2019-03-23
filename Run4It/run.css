@@ -1,0 +1,87 @@
+#two
+{
+  text-align: center;
+  height:100vh;
+
+}
+body
+{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Titillium Web', sans-serif;
+}
+.navbar{
+    position: fixed;
+    z-index: 1050;
+    width: 100% ;
+}
+.nav_li
+{
+  color: white;
+  /*box-shadow: 0 1px;*/
+  font-weight: bolder;
+
+}
+li{
+    margin-top: none;
+}
+.bg-custom {
+  background-color:rgb(50,171,236);
+  color: #fff;;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    text-shadow: 0 0 5px rgb(54,185,65), 0 0 5px rgb(54,185,65), 0 0 6px rgb(54,185,65), 0 0 7px rgb(54,185,65), 0 0 7px rgb(54,185,65), 0 0 8px rgb(54,185,65), 0 0 9px green;
+    text-shadow: 2px 1px 4px #000000;
+
+}
+
+.nav-item{
+  padding-right: 15px;
+  padding-left: -10px;
+  margin: 2px 12px;
+  border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+#navbar {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: lightgrey;
+  color: white;
+}
+#ham
+{
+  margin-top:0px; 
+}
+
+
+
+
+
+
+
+
